@@ -1,0 +1,9 @@
+
+.red-box {
+    background-color: #e26a6a81;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.red-box.cooler {
+    font-size: 24px;
+}
