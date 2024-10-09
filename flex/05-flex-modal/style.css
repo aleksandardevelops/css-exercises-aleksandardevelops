@@ -72,13 +72,23 @@ button.cancel {
 /* adding my code here */
 .header {
   display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  justify-content: space-between;
 }
 
 .modal {
   display: flex;
-  justify-content: space-around;
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
   flex-shrink: 0;
+}
+
+.text {
+  margin-bottom: 16px;
 }
