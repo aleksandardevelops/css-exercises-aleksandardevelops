@@ -26,6 +26,12 @@ input {
 }
 
 /* my code; */
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
 li {
   list-style-type: none;
 }
@@ -35,11 +41,32 @@ a {
   color: black;
 }
 
+.footer,
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 0 20px 0 20px;
 }
 
 ul {
   padding-inline-start: 0px;
+  display: flex;
+  gap: 13px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+button {
+  padding: 0.7em 1em;
 }
